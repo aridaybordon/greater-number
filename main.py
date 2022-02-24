@@ -62,8 +62,8 @@ def main():
     N_TRAINING = 10000
     N_TEST     = 10000
     
-    generate_sample_data(N_TRAINING, 'train')
-    generate_sample_data(N_TEST, 'test')
+    #generate_sample_data(N_TRAINING, 'train')
+    #generate_sample_data(N_TEST, 'test')
     
     model = create_model()
     
